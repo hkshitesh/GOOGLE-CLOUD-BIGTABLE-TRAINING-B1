@@ -9,3 +9,10 @@ https://docs.google.com/spreadsheets/d/1TurJ-L1zUo1e_9SdDc2N-lH0o_JSU_TZu5KdbaLi
   source venv/bin/activate
   
   pip install google-cloud-bigtable
+
+
+## Command
+
+gcloud projects remove-iam-policy-binding $PROJECT_ID \
+    --member="serviceAccount:$SERVICE_ACCOUNT" \
+    --role="roles/editor"
