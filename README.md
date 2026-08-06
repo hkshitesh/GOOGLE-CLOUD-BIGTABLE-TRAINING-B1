@@ -23,7 +23,7 @@ gcloud projects get-iam-policy $PROJECT_ID \
     --filter="bindings.members:user:hitesh@datacouch.io" \
     --format="table(bindings.role,bindings.members)"
 
-## MID COURSE FEEDBACK
+## FINAL FEEDBACK
 
 https://forms.gle/4J63AA4XzQPMixwg9
 
